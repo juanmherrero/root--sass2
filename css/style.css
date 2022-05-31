@@ -1,0 +1,240 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway&display=swap";
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem; }
+
+h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem; }
+
+h3 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem; }
+
+p {
+  font-family: 'Raleway', sans-serif;
+  padding: 5px 20px 20px; }
+
+ul {
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif; }
+
+ol {
+  font-family: 'Raleway', sans-serif; }
+
+.listaMenu {
+  display: inline; }
+
+.listaHeader {
+  text-align: center;
+  color: white; }
+
+a {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif; }
+  a:link {
+    color: black; }
+  a:visited {
+    color: black; }
+
+.footer {
+  font-family: 'Raleway', sans-serif;
+  background-color: #07070A;
+  color: white; }
+
+.header {
+  font-family: 'Raleway', sans-serif;
+  top: 0px;
+  background-color: #07070A;
+  color: white; }
+
+main {
+  background-color: #cadbc0; }
+
+form {
+  font-family: 'Raleway', sans-serif; }
+
+.buscar {
+  text-align: right; }
+
+.logoPral {
+  text-align: center; }
+
+.logoChico {
+  text-align: center; }
+
+.derechos {
+  text-align: center; }
+
+.botDiv {
+  background-color: #0081A7; }
+
+.contenedorUno {
+  text-align: center; }
+
+.contenedorDos {
+  text-align: center; }
+
+.gen {
+  text-align: center; }
+
+.img {
+  display: inline;
+  width: 90%;
+  height: auto;
+  text-align: center;
+  margin-top: 10px; }
+
+.contenedorTres {
+  text-align: center; }
+
+.row {
+  margin: 0; }
+
+.texto {
+  text-align: center;
+  margin-top: 15px;
+  display: inline; }
+
+.video {
+  text-align: center; }
+
+.contenedorCuatro {
+  text-align: center; }
+
+.prod {
+  text-align: center; }
+
+.imgDos {
+  display: inline;
+  width: 60%;
+  height: auto;
+  text-align: center;
+  margin-top: 10px; }
+
+.contenedorCinco {
+  text-align: center; }
+
+.textoDos {
+  text-align: center;
+  display: inline;
+  margin-top: 15px; }
+
+.newsletter {
+  text-align: center; }
+
+.local {
+  text-align: center; }
+
+.formContacto {
+  text-align: center; }
+
+.inicioContacto {
+  text-align: center; }
+
+.textoLista {
+  margin: 35px; }
+
+.mensajeWsp {
+  position: fixed;
+  bottom: 35px;
+  right: 15px; }
+
+.seccionUno {
+  text-align: justify; }
+
+fieldset {
+  border: none; }
+
+.carousel {
+  width: 97%;
+  margin: auto;
+  transition-duration: 2s; }
+
+.img-fluid {
+  width: 100%;
+  height: auto; }
+
+/*body {
+	section {
+		background-color: #0081A7;
+		h2 {
+			background-color: $bgH2;
+		}
+		li {
+			color: $colorParrafo;
+			p {
+				background-color: $fondo;
+				color: $colorParrafo;
+				margin: $margen;
+				padding: $padParrafo;
+			}
+		}
+	}
+}*/
+.formContacto {
+  width: 50%;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #0081A7; }
+  .formContacto label {
+    width: 50%;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 8px; }
+  .formContacto input[type="text"],
+  .formContacto input[type="email"] {
+    width: 90%;
+    padding: 3px 10px;
+    border: 1px solid #07070A;
+    border-radius: 3px;
+    background-color: white;
+    margin: 8px 15px 0 15px;
+    display: inline-block; }
+  .formContacto input[type="submit"],
+  .formContacto input[type="reset"] {
+    width: 90%;
+    padding: 8px 16px;
+    margin-top: 5%;
+    border: 1px solid #07070A;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    background-color: #07070A; }
+  .formContacto input[type="submit"]:hover {
+    cursor: pointer; }
+  .formContacto textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white;
+    margin: 8px 0;
+    border: 1px solid #07070A;
+    resize: none;
+    display: block;
+    margin-top: 15px; }
+
+@media (max-width: 606px) {
+  .mapa {
+    display: none; } }
+
+@media (max-width: 767px) {
+  .img {
+    width: 50%; }
+  .imgDos {
+    width: 50%; }
+  .tab {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .mob {
+    display: none; } }
