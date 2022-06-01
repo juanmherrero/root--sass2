@@ -1,0 +1,9 @@
+.estiloUno {
+    font-weight: bold;
+    text-align: left;
+}
+
+.estiloDos {
+    @extend.estiloUno;
+    font-size: 35px;
+}

@@ -1,4 +1,4 @@
-@import "variables";
+@import "variables","maps","extend","mixin";
 
 @import "https://fonts.googleapis.com/css2?family=Raleway&display=swap";
 
@@ -32,6 +32,9 @@ p {
 ul {
 	list-style-type: none;
 	font-family: 'Raleway', sans-serif;
+}
+.listPunt {
+	list-style-type: circle;
 }
 ol {
 	font-family: 'Raleway', sans-serif;

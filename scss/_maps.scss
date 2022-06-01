@@ -1,0 +1,18 @@
+$mapDev:(envio:#0081A7, politicas:#0081A7);
+
+@each $red, $color in $mapDev {
+    .#{$red} {
+        background-color: $color;
+        color: white;
+    }
+}
+
+$estilo:(color:#0081A7,tamFuente:20px);
+
+.procedimiento {
+    background-color: map-get($estilo,color);
+    font-size: map-get($estilo,tamFuente);
+    width: 100%;
+    height: 100%;
+    color: orange;
+}

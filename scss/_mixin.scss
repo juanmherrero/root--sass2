@@ -1,0 +1,9 @@
+@mixin parrafoMixin {
+    color: blue;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.parrMixin {
+    @include parrafoMixin;
+}
